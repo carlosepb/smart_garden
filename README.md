@@ -91,8 +91,8 @@ con el número para llamar a los bomberos. (imagen_1.0)
 </p>
 <p align="center"><img src="images_README/circuito_arduino.PNG" alt="circuito_arduino" width="600" height="425"></p>
 <p align="justify">
-Elementos
-  * Empezando de izquierda a derecha tenemos el círculo azul claro donde está
+1. Elementos
+    * Empezando de izquierda a derecha tenemos el círculo azul claro donde está
     conectado el led que conectará la luz o no según el sensor de fotorresistencia
     detecte cuan cantidad de luz haya.
   *
