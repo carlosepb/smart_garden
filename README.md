@@ -11,8 +11,6 @@ Jardín automático con arduino.
       <a href="https://github.com/carlosepb/smart_garden"><strong>Explorar repositorio»</strong></a>
     <br />
     <br />
-      <a href="https://github.com/carlosepb/PeduleShape/blob/main/images/animation.gif">Ver Demo</a>
-      ·
       <a href="https://github.com/carlosepb/smart_garden/issues">Reportar Error</a>
       ·
       <a href="https://github.com/carlosepb/smart_garden/issues">Solicitar Colaboración</a>
@@ -157,38 +155,42 @@ Elementos:</br>
     </li>
 </ul>
 </p>
-
-<p align="justify">
-El efecto del shape podemos verlo en la imagen inferior.(imagen_5.0)
-</p>
 <p align="center"><img src="images_README/interfaz.PNG" alt="interfaz" width="600" height="425"</p>
 
 ## Herramientas de Desarrollo
 
 * [Processing3](https://processing.org/download/)
+* [Tinkercad](https://www.tinkercad.com/)
 
 <!-- GETTING STARTED -->
 ## Empezando
 
 <p align="justify">
-Para modificar la aplicación y ejecutar necesitará instalar el entorno de desarrollo Processing3.
+Para modificar la aplicación y ejecutar necesitará instalar el entorno de desarrollo Processing3 y en caso de querer probar o modificar sistema virtual ardunino necesitará crear una cuenta en la página de thinkercad.
 </p>
 
 ### Prerrequisitos
 
 * Descargar y descomprimir Processing3, lo puedes encontrar [aquí](https://processing.org/download/).
+* Crear una cuenta en la página de thinkercad, enlace [aquí](https://www.tinkercad.com/).
+
 
 ### Instalación
 1. Para exportar a un archivo con formato gif animado es necesario instalar GifAnimation, lo puede encontrar [aquí](https://github.com/extrapixel/gif-animation).
-   
+2. Para utilizar la libreria OpenVC deberemos descargarla e instalarla desde encontrar [aquí](http://www.magicandlove.com/blog/2018/11/22/opencv-4-0-0-java-built-and-cvimage-library/).
+
 ### Ejecutar
 
-2. Proyecto.
-    * Descomprimir rar.
+1. Proyecto Processing.
+    * Descomprimir zip.
     * Ejecutar Processin3.
-    * Deberemos poner Processin3 en modo SHAPE
     * Archivo->Abrir...
-   
+
+2. Proyecto Arduino.
+    * Descomprimir rar.
+    * Acceder a la página de thinkercad
+    * Iniciar sesión
+    * Abrir...
 
 <!-- ROADMAP -->
 ## Hoja de Ruta
@@ -204,10 +206,18 @@ Software completamente libre para copiar o distribuir.
 ## Contacto
 
 Autor: Carlos Eduardo Pacichana Bastidas
-
 Email: carlos.eduardo.pacichana@gmail.com  carlos.pacichana101@alu.ulpgc.es
 
-Enlace al proyecto: [https://github.com/carlosepb/PeduleShape](https://github.com/carlosepb/PeduleShape)
+Autor: Alejandro García Sosa
+Email: alejandro.garcia134@alu.ulpgc.es
+
+Autor: Alejandro Daniel Herrera Cárdenes
+Email: alejandro.herrera113@alu.ulpgc.es
+
+Autor: Javier Santana Álamo 
+Email: javier.santana130@alu.ulpgc.es
+
+Enlace al proyecto: [https://github.com/carlosepb/smart_garden](https://github.com/carlosepb/smart_garden)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Agradecimientos
@@ -216,4 +226,4 @@ Enlace al proyecto: [https://github.com/carlosepb/PeduleShape](https://github.co
 * [Funprogramming](https://funprogramming.org/)
 * [Text](https://processing.org/reference/text_.html)
 * [Texturas](https://www.pexels.com/es-es/)
-* [Shape](https://github.com/otsedom/CIU/blob/master/P9/p9_shader_dibuja/Dibuja7.glsl)
+* [OpenVC 4.0.0](http://www.magicandlove.com/blog/2018/11/22/opencv-4-0-0-java-built-and-cvimage-library/)
