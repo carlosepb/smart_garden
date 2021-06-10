@@ -121,7 +121,7 @@ Elementos:</br>
     </li>
 </ul>
 </p>
-<p align="center"><img src="images_README/circuito_arduino_2.PNG" alt="circuito_arduino_2" width="300" height="500">
+<p align="center"><img src="images_README/circuito_arduino_2.PNG" alt="circuito_arduino_2" width="400" height="500">
 <p align="justify">
 El efecto del shape podemos verlo en la imagen inferior.(imagen_5.0)
 </p>
