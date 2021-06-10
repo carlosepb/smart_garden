@@ -121,11 +121,47 @@ Elementos:</br>
     </li>
 </ul>
 </p>
-<p align="center"><img src="images_README/circuito_arduino_2.PNG" alt="circuito_arduino_2" width="400" height="500">
+<p align="center"><img src="images_README/circuito_arduino_2.PNG" alt="circuito_arduino_2" width="400" height="500"></p>
+
+<p align="justify">
+El entorno gráfico podemos observarlo a continuación.
+</p>
+
+<p align="justify">
+Elementos:</br>
+
+<ul>
+    <li>
+    El primer bloque (COMPONENTE), situado arriba a la izquierda, es para la
+    activación manual de elementos lumínicos, de riego y de temperatura. (imagen_1.2)
+    </li>
+    <li>
+    El segundo bloque, arriba a la derecha es la cámara, donde controlaremos de
+    manera visual lo que ocurre en nuestro huerto, permitiéndonos esto saber el estado
+    exacto del mismo sin necesidad de desplazarnos hasta el mismo. La cámara hace
+    de veces de sensor de movimiento, cambiando de modo al hacer click sobre ese
+    bloque. (imagen_1.2)
+    </li>
+    <li>
+    Justo debajo encontramos el bloque del ESTADO DEL ENTORNO, donde
+    tenemos una serie de gráficas que muestran el desarrollo durante el tiempo de las
+    condiciones de humedad, temperatura y luz. (imagen_1.2) 
+    </li>
+    <li>
+    Finalmente tenemos el bloque de abajo a la izquierda, marcado como
+    POTENCIA, este bloque se usa para controlar los niveles de intensidad en el
+    riego, la luminosidad y la temperatura. La potencia de riego se sitúa al máximo en
+    caso de incendio, en caso contrario suele estar en un goteo ligero o incluso
+    apagado. (En el proyecto actual no se encuentra incorporado debido a no poseer
+    elementos de riego, luz o temperatura). (imagen_1.2)
+    </li>
+</ul>
+</p>
+
 <p align="justify">
 El efecto del shape podemos verlo en la imagen inferior.(imagen_5.0)
 </p>
-<p align="center"><img src="images/captura3.JPG" alt="shape" width="600" height="425"></br>imagen_4.0</p>
+<p align="center"><img src="images_README/interfaz.PNG" alt="interfaz" width="600" height="425"</p>
 
 ## Herramientas de Desarrollo
 
