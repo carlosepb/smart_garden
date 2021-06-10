@@ -1,21 +1,21 @@
-# PenduleShape
-Péndulo de Newton en 3D con Shapes.
+# smart_garden
+Jardín automático con arduino.
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h3 align="center">Péndulo de Newton con Shapes</h3>
+  <h3 align="center">Jardín automático con arduino</h3>
 
   <p align="center">
-    ¡Péndulo de Newton en 3D!
+    ¡Obtén ayuda para cuidar tu huerto!
     <br />
-      <a href="https://github.com/carlosepb/PeduleShape"><strong>Explorar repositorio»</strong></a>
+      <a href="https://github.com/carlosepb/smart_garden"><strong>Explorar repositorio»</strong></a>
     <br />
     <br />
       <a href="https://github.com/carlosepb/PeduleShape/blob/main/images/animation.gif">Ver Demo</a>
       ·
-      <a href="https://github.com/carlosepb/PeduleShape/issues">Reportar Error</a>
+      <a href="https://github.com/carlosepb/smart_garden/issues">Reportar Error</a>
       ·
-      <a href="https://github.com/carlosepb/PeduleShape/issues">Solicitar Colaboración</a>
+      <a href="https://github.com/carlosepb/smart_garden/issues">Solicitar Colaboración</a>
     </p>
   </p>
 
@@ -52,48 +52,52 @@ Péndulo de Newton en 3D con Shapes.
 <!-- ABOUT THE PROJECT -->
 ## Sobre el Proyecto
 <p align="justify">
-Al abrir la aplicación podremos ver los controles de movimiento para la figura en 3D, en nuestro caso un péndulo de Newton. El cual podremos rotar sobre si mismo en el eje X e Y utilizando las flechas de dirección, además de cambiar el efecto de la luz con un clic del ratón. También podemos usar la tecla espacio para activar el movimiento automático de la cámara y las teclas r para reiniciar todo y e para cerrar la aplicación.(imagen_1.0)
+En el ámbito que hemos querido centrar nuestro proyecto es en el hecho de que cada vez
+es más habitual que las personas instalen huertos para consumo privado en sus hogares.
+En algunos casos estos se instalan en lugares de acceso menos habitual como azoteas,
+trasteros o sótanos los cuales no solemos ver de manera regular y este proyecto trata sobre
+una solución que nos permita llevar un control del mismo desde nuestro terminal e incluso
+que en caso de que sea necesario el sistema pueda realizar ajuste en el entorno mediante
+soportes de riego, calefacción y luz de manera automática.
 </p>
-<p align="center"><img src="images/instrucciones.JPG" alt="instrucciones" width="600" height="425"></br>imagen_1.0</p>
 <p align="justify">
-Como podemos ver en la imagen inferior tenemos una rotación de la figura además de un cambio de efecto de luz los cuales pueden ser cuatro (realista, rojo, verde y azul). (imagen_2.0)
+Las tecnologías empleadas son Processing y Tinkercad
+(aunque esta es más bien un sustituto de toda la parte hardware no disponible,
+mismamente podríamos decir que es un Arduino con una variedad de sensores conectados
+a su alrededor), describiendo a continuación el trabajo realizado con ambas tecnologías.
 </p>
-<p align="center"><img src="images/captura1.JPG" alt="cambio de luz" width="600" height="425"></br>imagen_2.0</p>
+
+## Trabajo Realizado
 <p align="justify">
-Como se explicó en el primer párrafo utilizando la tecla espacio podemos activar el movimiento automático de la cámara lo que hace que esta se desplace alrededor de la figura en una secuencia programada a modo de salvapantallas. En este modo aún podemos aplicar rotaciones y cambios de luz.(imagen_3.0)
+Como ya detallamos anteriormente las tecnologías empleadas son Processing y Tinkercad
+(aunque esta es más bien un sustituto de toda la parte hardware no disponible,
+mismamente podríamos decir que es un Arduino con una variedad de sensores conectados
+a su alrededor), describiendo a continuación el trabajo realizado con ambas tecnologías.
 </p>
-<p align="center"><img src="images/captura2.JPG" alt="cambio de cámara" width="600" height="425"></br>imagen_3.0</p>
 <p align="justify">
-En la imagen inferior podemos ver la ejecución del programa en un GIF que nos permite ver los cuatro estados de luz, además de una rotación y un reinicio del estado.(imagen_4.0)
+Comenzando por el apartado de Tinkercad como ya hemos indicado la idea es simular un
+huerto o invernadero automático a través de los datos obtenidos de esos sensores pudiendo
+activar automáticamente la ventilación, riego automático o luz si es necesario. (imagen_1.0)
 </p>
-<p align="center"><img src="images/animation.gif" alt="ejecución" width="600" height="425"></br>imagen_4.0</p>
+<p align="justify">
+Además, se ha añadido un sistema antiincendios que activa automáticamente el sistema
+de riego para minorizar los riesgos y se activa un sonido para que los usuarios tengan
+conocimiento del incendio en caso de que no estén observando el huerto. (imagen_1.0)
+</p>
+<p align="justify">
+Y se ha añadido una pantalla LCD donde se pueda observar los datos de temperatura y
+humedad a tiempo real y en caso de que salte la alarma antiincendios salga un mensaje
+con el número para llamar a los bomberos. (imagen_1.0)
+</p>
+<p align="center"><img src="images_README/circuito_arduino.PNG" alt="circuito_arduino" width="600" height="425"></p>
 <p align="justify">
 El efecto del shape podemos verlo en la imagen inferior.(imagen_5.0)
 </p>
 <p align="center"><img src="images/captura3.JPG" alt="shape" width="600" height="425"></br>imagen_4.0</p>
-
-
-## Trabajo Realizado
 <p align="justify">
-Para la rotación de la figura sobre si misma se utilizan los eventos keypressed y released utilizados en la primera practica además de la función rotate(). Estas tres cosas combinadas nos permiten realizar modificaciones en la inclinación de la figura respecto al eje 0.
+El efecto del shape podemos verlo en la imagen inferior.(imagen_5.0)
 </p>
-<p align="justify">
-Para el cambio de luz se hace uso de las funciones ambientLight y lights dependiendo del efecto que queramos producir.
-</p>
-<p align="justify">
-El movimiento de la cámara se ha programado de manera automática para que se desplace alrededor de la figura usando la función camera.
-</p>
-<p align="justify">
-Para crear la figura se han usado los elementos 3D box y sphere para la estructura y las esferas respectivamente. Para el caso de las esferas que se encuentran en los extremos intercambian una variable que es la que define su posición al chocar con las esferas centrales y estas se desplazan de manera aleatoria en la dirección que recibieron el impacto.
-</p>
-<p align="justify">
-En caso de querer utilizar la función de crear GIF se deben descomentar las líneas 11, 47, 48, 184 y 242-244. Estas se encuentran comentadas para mejorar la eficiencia de la ejecución.
-</p>
-</p>
-<p align="justify">
-Como trabajo extra para la practica de shapes se ha añadido un nuevo efecto de luz el cual será cargado a partir de un fichero shape tomado desde el repositorio de ejemplos proporcionado por el profesor.
-Este efecto altera la visión de los elementos añadiendo múltiples colores y efectos de luces.
-</p>
+<p align="center"><img src="images/captura3.JPG" alt="shape" width="600" height="425"></br>imagen_4.0</p>
 
 ## Herramientas de Desarrollo
 
