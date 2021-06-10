@@ -177,7 +177,7 @@ Para modificar la aplicación y ejecutar necesitará instalar el entorno de desa
 
 ### Instalación
 1. Para exportar a un archivo con formato gif animado es necesario instalar GifAnimation, lo puede encontrar [aquí](https://github.com/extrapixel/gif-animation).
-2. Para utilizar la libreria OpenVC deberemos descargarla e instalarla desde encontrar [aquí](http://www.magicandlove.com/blog/2018/11/22/opencv-4-0-0-java-built-and-cvimage-library/).
+2. Para utilizar la libreria OpenVC deberemos descargarla e instalarla desde [aquí](http://www.magicandlove.com/blog/2018/11/22/opencv-4-0-0-java-built-and-cvimage-library/).
 
 ### Ejecutar
 
@@ -187,7 +187,7 @@ Para modificar la aplicación y ejecutar necesitará instalar el entorno de desa
     * Archivo->Abrir...
 
 2. Proyecto Arduino.
-    * Descomprimir rar.
+    * Descomprimir zip.
     * Acceder a la página de thinkercad
     * Iniciar sesión
     * Abrir...
@@ -227,3 +227,4 @@ Enlace al proyecto: [https://github.com/carlosepb/smart_garden](https://github.c
 * [Text](https://processing.org/reference/text_.html)
 * [Texturas](https://www.pexels.com/es-es/)
 * [OpenVC 4.0.0](http://www.magicandlove.com/blog/2018/11/22/opencv-4-0-0-java-built-and-cvimage-library/)
+* [Captura_Imagenes](https://github.com/otsedom/CIU/tree/master/P6/p6_camdiff)
