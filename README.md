@@ -97,34 +97,31 @@ Elementos:</br>
     <li>
     Empezando de izquierda a derecha tenemos el círculo azul claro donde está
     conectado el led que conectará la luz o no según el sensor de fotorresistencia
-    detecte cuan cantidad de luz haya.
+    detecte cuan cantidad de luz haya. (imagen_1.1)
     </li>
     <li>
     El círculo negro al Tinkercad no poseer detector de humedad usamos un
     potenciómetro que usaremos de manera manual para realizar las pruebas según
-    queramos que haya más o menos humedad. 
+    queramos que haya más o menos humedad. (imagen_1.1)
     </li>
     <li>
     Luego tenemos el círculo azul que es el sensor de gas, pero en nuestro caso lo
     usaremos como sensor de humo el cual detectará si hay humo cerca del sensor
-    activando una alarma que sería el piezo (círculo verde). 
+    activando una alarma que sería el piezo (círculo verde). (imagen_1.1) 
     </li>
     <li>
     El círculo morado sería el sensor de fotorresistencia que nos indica la cantidad
     de luz que detecta. También la cambiaremos de manera manual para realizar las
-    pruebas.
+    pruebas. (imagen_1.1)
     </li>
     <li>
     Y para acabar el círculo rojo es la pantalla LCD donde se mostrarán los datos
     de humedad y temperatura y en caso de que haya un incendio mostrará el número
-    de teléfono de los bomberos para rápida actuación del usuario. 
+    de teléfono de los bomberos para rápida actuación del usuario. (imagen_1.1) 
     </li>
 </ul>
-    * Empezando de izquierda a derecha tenemos el círculo azul claro donde está
-    conectado el led que conectará la luz o no según el sensor de fotorresistencia
-    detecte cuan cantidad de luz haya.
 </p>
-<p align="center"><img src="images/captura3.JPG" alt="shape" width="600" height="425"></br>imagen_4.0</p>
+<p align="center"><img src="images_README/circuito_arduino_2.PNG" alt="circuito_arduino_2" width="300" height="500">
 <p align="justify">
 El efecto del shape podemos verlo en la imagen inferior.(imagen_5.0)
 </p>
