@@ -94,12 +94,31 @@ con el número para llamar a los bomberos. (imagen_1.0)
 Elementos:</br>
 
 <ul>
-    <li>Empezando de izquierda a derecha tenemos el círculo azul claro donde está
+    <li>
+    Empezando de izquierda a derecha tenemos el círculo azul claro donde está
     conectado el led que conectará la luz o no según el sensor de fotorresistencia
     detecte cuan cantidad de luz haya.
     </li>
-    <li></li>
-    <li></li>
+    <li>
+    El círculo negro al Tinkercad no poseer detector de humedad usamos un
+    potenciómetro que usaremos de manera manual para realizar las pruebas según
+    queramos que haya más o menos humedad. 
+    </li>
+    <li>
+    Luego tenemos el círculo azul que es el sensor de gas, pero en nuestro caso lo
+    usaremos como sensor de humo el cual detectará si hay humo cerca del sensor
+    activando una alarma que sería el piezo (círculo verde). 
+    </li>
+    <li>
+    El círculo morado sería el sensor de fotorresistencia que nos indica la cantidad
+    de luz que detecta. También la cambiaremos de manera manual para realizar las
+    pruebas.
+    </li>
+    <li>
+    Y para acabar el círculo rojo es la pantalla LCD donde se mostrarán los datos
+    de humedad y temperatura y en caso de que haya un incendio mostrará el número
+    de teléfono de los bomberos para rápida actuación del usuario. 
+    </li>
 </ul>
     * Empezando de izquierda a derecha tenemos el círculo azul claro donde está
     conectado el led que conectará la luz o no según el sensor de fotorresistencia
