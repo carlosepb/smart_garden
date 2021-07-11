@@ -161,7 +161,7 @@ Elementos:</br>
     </li>
 </ul>
 </p>
-<p align="center"><img src="images_README/interfaz.PNG" alt="interfaz" width="600" height="425"</p>
+<p align="center"><img src="images_README/interfaz.png" alt="interfaz" width="600" height="425"</p>
 
 ## Herramientas de Desarrollo
 
