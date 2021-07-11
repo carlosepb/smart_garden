@@ -168,8 +168,8 @@ Elementos:</br>
 </p>
 <p align="center"><img src="images_README/interfaz.png" alt="interfaz" width="600" height="425"</p>
 </p>
-<p align="center"><img src="images_README/camara_frio.png" alt="interfaz" width="500" height="325"</p>
-<p align="center"><img src="images_README/camara_calor.png" alt="interfaz" width="500" height="325"</p>
+<p align="center"><img src="images_README/camara_frio.PNG" alt="interfaz" width="500" height="325"</p>
+<p align="center"><img src="images_README/camara_calor.PNG" alt="interfaz" width="500" height="325"</p>
 
 ## Herramientas de Desarrollo
 
