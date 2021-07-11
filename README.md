@@ -142,7 +142,7 @@ Elementos:</br>
     </li>
 </ul>
 </p>
-<p align="center"><img src="images_README/arduino_2.PNG" alt="circuito_arduino_2" width="400" height="500"></p>
+<p align="center"><img src="images_README/arduino_2.png" alt="circuito_arduino_2" width="400" height="500"></p>
 
 <p align="justify">
 El entorno gráfico podemos observarlo a continuación.
