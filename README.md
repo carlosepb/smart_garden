@@ -93,7 +93,7 @@ Hemos hecho que el sistema sea menos reactivo, haciendo que, en lugar de tener u
 <p align="justify">
 Por lo que tendremos distintos umbrales de temperatura que harán que poco a poco según vaya subiendo o bajando la temperatura el calefactor funcione a una mayor o menor potencia, evitando tanta reactividad, lo cual ayudará a que el prototipo tenga una mayor vida útil. Esto ha sido implantado para todos los elementos. (imagen_1.0)
 </p>
-<p align="center"><img src="images_README/circuito_arduino.PNG" alt="circuito_arduino" width="600" height="425"></p>
+<p align="center"><img src="images_README/arduino_1.png" alt="circuito_arduino" width="600" height="425"></p>
 <p align="justify">
 Elementos:</br>
 
@@ -125,7 +125,7 @@ Elementos:</br>
     </li>
 </ul>
 </p>
-<p align="center"><img src="images_README/circuito_arduino_2.PNG" alt="circuito_arduino_2" width="400" height="500"></p>
+<p align="center"><img src="images_README/arduino_2.PNG" alt="circuito_arduino_2" width="400" height="500"></p>
 
 <p align="justify">
 El entorno gráfico podemos observarlo a continuación.
