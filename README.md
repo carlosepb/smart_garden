@@ -88,7 +88,7 @@ humedad a tiempo real y en caso de que salte la alarma antiincendios salga un me
 con el número para llamar a los bomberos. (imagen_1.0)
 </p>
 <p align="justify">
-Se ha añadido una pila para conseguir una mayor potencia en los sistemas reactivos y tener un rango mayor al regular estos elementos, esto lo hacemos porque la potencia suministrada por la placa es insuficiente.. (imagen_1.0)
+Se ha añadido una pila para conseguir una mayor potencia en los sistemas reactivos y tener un rango mayor al regular estos elementos, esto lo hacemos porque la potencia suministrada por la placa es insuficiente. (imagen_1.0)
 </p>
 <p align="justify">
 Hemos hecho que el sistema sea menos reactivo, haciendo que, en lugar de tener un único umbral 
