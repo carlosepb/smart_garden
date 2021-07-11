@@ -136,7 +136,7 @@ Elementos:</br>
     pruebas. (imagen_1.1)
     </li>
     <li>
-    El círculo rosa serían una pareja de transistores NPN el cual tiene dos funciones básicas,       ser un interruptor electrónico o un amplificador. En este caso lo usamos como amplificador..     (imagen_1.1)
+    El círculo rosa serían una pareja de transistores NPN el cual tiene dos funciones básicas,       ser un interruptor electrónico o un amplificador. En este caso lo usamos como amplificador.     (imagen_1.1)
     </li>
     <li>
     Y para acabar el círculo rojo es la pantalla LCD donde se mostrarán los datos
@@ -156,28 +156,13 @@ Elementos:</br>
 
 <ul>
     <li>
-    El primer bloque (COMPONENTE), situado arriba a la izquierda, es para la
-    activación manual de elementos lumínicos, de riego y de temperatura. (imagen_1.2)
+    En el rectángulo rojo podemos encontrar un reloj que hemos añadido para conocer la hora        actual, aunque por desgracia, al ser un sistema simulado la hora no será real. Este reloj va acompañado de un botón para avanzar el tiempo, algo que será clave para la simulación. En un prototipo no simulado se leería la hora actual y carecería de este botón. (imagen_1.2)
     </li>
     <li>
-    El segundo bloque, arriba a la derecha es la cámara, donde controlaremos de
-    manera visual lo que ocurre en nuestro huerto, permitiéndonos esto saber el estado
-    exacto del mismo sin necesidad de desplazarnos hasta el mismo. La cámara hace
-    de veces de sensor de movimiento, cambiando de modo al hacer click sobre ese
-    bloque. (imagen_1.2)
+   En el rectángulo naranja (esquina superior derecha) nos encontramos dos botones, el primer botón servirá para mostrar información de ayuda sobre la aplicación y su uso. El otro botón lo usaremos para pasar a modo manual el control de los elementos que controlan la temperatura, la luz y la humedad. . (imagen_1.2)
     </li>
     <li>
-    Justo debajo encontramos el bloque del ESTADO DEL ENTORNO, donde
-    tenemos una serie de gráficas que muestran el desarrollo durante el tiempo de las
-    condiciones de humedad, temperatura y luz. (imagen_1.2) 
-    </li>
-    <li>
-    Finalmente tenemos el bloque de abajo a la izquierda, marcado como
-    POTENCIA, este bloque se usa para controlar los niveles de intensidad en el
-    riego, la luminosidad y la temperatura. La potencia de riego se sitúa al máximo en
-    caso de incendio, en caso contrario suele estar en un goteo ligero o incluso
-    apagado. (En el proyecto actual no se encuentra incorporado debido a no poseer
-    elementos de riego, luz o temperatura). (imagen_1.2)
+    En la parte inferior de la imagen (recuadro azul) tenemos el indicador de la intensidad de los elementos encargados de regular la temperatura, el riego y la luminosidad, con distintos niveles que nos indicará la potencia a la que trabajan los motores. Estos indicadores, a fin de mantener el diseño minimalista, irán acompañados de un icono sencillo y discreto que indicarán qué elemento regulan. Estos se encuentran justo debajo de los marcadores numéricos de los valores medidos. Esta forma de representación la escogimos al buscar otras aplicaciones de control de invernaderos y gustarnos su representación, en este caso fue la aplicación de IOGreenhouse. (imagen_1.2) 
     </li>
 </ul>
 </p>
