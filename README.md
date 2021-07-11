@@ -87,6 +87,12 @@ Y se ha añadido una pantalla LCD donde se pueda observar los datos de temperatu
 humedad a tiempo real y en caso de que salte la alarma antiincendios salga un mensaje
 con el número para llamar a los bomberos. (imagen_1.0)
 </p>
+<p align="justify">
+Hemos hecho que el sistema sea menos reactivo, haciendo que, en lugar de tener un único umbral para arrancar la ventilación, los calefactores, la luz y el riego de manera automática, habrá distintos rangos en los que los motores irán funcionando a distintas potencias. (imagen_1.0)
+</p>
+<p align="justify">
+Por lo que tendremos distintos umbrales de temperatura que harán que poco a poco según vaya subiendo o bajando la temperatura el calefactor funcione a una mayor o menor potencia, evitando tanta reactividad, lo cual ayudará a que el prototipo tenga una mayor vida útil. Esto ha sido implantado para todos los elementos. (imagen_1.0)
+</p>
 <p align="center"><img src="images_README/circuito_arduino.PNG" alt="circuito_arduino" width="600" height="425"></p>
 <p align="justify">
 Elementos:</br>
