@@ -170,10 +170,13 @@ Elementos:</br>
 </p>
 <p align="center"><img src="images_README/interfaz.png" alt="interfaz" width="600" height="425"</p>
 <p align="center">imagen_1.2</p>
-<p align="justify">
-En el recuadro morado tenemos la zona de la cámara, en el actual prototipo, al ser simulado hemos sustituido lo que se muestra por una imagen fija en lugar de una grabación de cámara, esta imagen sufrirá alteraciones en el RGB para mostrar tonalidades más azuladas (imagen_1.4) o rojizas (imagen_1.3) en función de la temperatura medida, también se ha añadido que la imagen se muestre con gotas de agua en función del estado del riego, como si fuera una ventana a la que le caen las gotas.
-</p>
-
+<ul>
+    <li>
+    <p align="justify">
+    En el recuadro morado tenemos la zona de la cámara, en el actual prototipo, al ser simulado hemos sustituido lo que se muestra por una imagen fija en lugar de una grabación     de cámara, esta imagen sufrirá alteraciones en el RGB para mostrar tonalidades más azuladas (imagen_1.3) o rojizas (imagen_1.4) en función de la temperatura medida, también     se ha añadido que la imagen se muestre con gotas de agua en función del estado del riego, como si fuera una ventana a la que le caen las gotas.
+    </p>
+    </li>
+</ul>
 <p align="center"><img src="images_README/camara_frio.PNG" alt="interfaz" width="500" height="325"</p>
 <p align="center">imagen_1.3</p>
 <p align="center"><img src="images_README/camara_calor.PNG" alt="interfaz" width="500" height="325"</p>
@@ -200,7 +203,7 @@ Para modificar la aplicación y ejecutar necesitará instalar el entorno de desa
 ### Instalación
 1. Para exportar a un archivo con formato gif animado es necesario instalar GifAnimation, lo puede encontrar [aquí](https://github.com/extrapixel/gif-animation).
 2. Para utilizar la libreria OpenVC deberemos descargarla e instalarla desde [aquí](http://www.magicandlove.com/blog/2018/11/22/opencv-4-0-0-java-built-and-cvimage-library/).
-
+3. Instalar la liberia "video" en processing3, la podemos encontrar en herramientas/libraries/video.
 ### Ejecutar
 
 1. Proyecto Processing.
