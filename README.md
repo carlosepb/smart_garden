@@ -136,6 +136,9 @@ Elementos:</br>
     pruebas. (imagen_1.1)
     </li>
     <li>
+    El círculo rosa serían una pareja de transistores NPN el cual tiene dos funciones básicas,       ser un interruptor electrónico o un amplificador. En este caso lo usamos como amplificador..     (imagen_1.1)
+    </li>
+    <li>
     Y para acabar el círculo rojo es la pantalla LCD donde se mostrarán los datos
     de humedad y temperatura y en caso de que haya un incendio mostrará el número
     de teléfono de los bomberos para rápida actuación del usuario. (imagen_1.1) 
