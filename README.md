@@ -111,6 +111,7 @@ tanta reactividad, lo cual ayudará a que el prototipo tenga una mayor vida úti
 implantado para todos los elementos. (imagen_1.0)
 </p>
 <p align="center"><img src="images_README/arduino_1.png" alt="circuito_arduino" width="600" height="425"></p>
+<p align="center">imagen_1.0</p>
 <p align="justify">
 Elementos:</br>
 
@@ -146,6 +147,7 @@ Elementos:</br>
 </ul>
 </p>
 <p align="center"><img src="images_README/arduino_2.png" alt="circuito_arduino_2" width="400" height="500"></p>
+<p align="center">imagen_1.1</p>
 
 <p align="justify">
 El entorno gráfico podemos observarlo a continuación.
@@ -167,9 +169,15 @@ Elementos:</br>
 </ul>
 </p>
 <p align="center"><img src="images_README/interfaz.png" alt="interfaz" width="600" height="425"</p>
+<p align="center">imagen_1.2</p>
+<p align="justify">
+En el recuadro morado tenemos la zona de la cámara, en el actual prototipo, al ser simulado hemos sustituido lo que se muestra por una imagen fija en lugar de una grabación de cámara, esta imagen sufrirá alteraciones en el RGB para mostrar tonalidades más azuladas (imagen_1.4) o rojizas (imagen_1.3) en función de la temperatura medida, también se ha añadido que la imagen se muestre con gotas de agua en función del estado del riego, como si fuera una ventana a la que le caen las gotas.
 </p>
+
 <p align="center"><img src="images_README/camara_frio.PNG" alt="interfaz" width="500" height="325"</p>
+<p align="center">imagen_1.3</p>
 <p align="center"><img src="images_README/camara_calor.PNG" alt="interfaz" width="500" height="325"</p>
+<p align="center">imagen_1.4</p>
 
 ## Herramientas de Desarrollo
 
