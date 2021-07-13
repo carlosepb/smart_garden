@@ -3,10 +3,14 @@ import java.lang.*;
 import cvimage.*;
 import org.opencv.core.*;
 import processing.serial.*;
+import processing.sound.*;
 int levell, levelt,levelh;
 
 boolean man;
 boolean ayuda;
+boolean audio;
+
+SoundFile anadir, quitar, sirena;
 
 PFont font;
 PFont font2;
@@ -28,6 +32,8 @@ int posCamX, posCamY;
 
 
 
+
+
 PImage auto, manu, gota, gotafoto, invernadero, bombi, termo;
 
 
@@ -39,6 +45,9 @@ void setup() {
   textFont(font);
   font2 = createFont("Calibri 400.ttf",60);
   
+  anadir = new SoundFile(this, "añadir.mp3");
+  sirena = new SoundFile(this, "sirena.mp3");
+  quitar = new SoundFile(this, "Quitar.mp3");
   
   
   gotinas =6;
@@ -47,7 +56,7 @@ void setup() {
   levelh=0;
   man=false;
   ayuda = false;
-
+  audio = true;
 
   posWX = 70;
   posWY = 130;
@@ -161,6 +170,9 @@ void draw() {
     pushMatrix();
     botonautoman();
     popMatrix();
+    pushMatrix();
+    botaudio();
+    popMatrix();    
     controlautomaticot();
     controlautomaticoh();
     controlautomaticol();
@@ -873,6 +885,11 @@ void mouseClicked(){
       ayuda=!ayuda;
     }
     
+    if((mouseX >=0 && mouseX <=30 )&& (mouseY>=0 && mouseY<=30)){
+      audio=!audio;
+    }    
+    
+    
     if(( mouseX >=310+posWX&& mouseX <=(310+30+posWX) )&& (mouseY>=(210+posWY) && mouseY<=(240+posWY)) ){
       if(horaux<23){
         horaux=horaux+1;
@@ -890,6 +907,11 @@ void mouseClicked(){
       if(( mouseX >=(posLevelsX-60) && mouseX <=(posLevelsX-30) )&& (mouseY>=(2+posLevelsY+150) && mouseY<=(32+posLevelsY+150))&&man){
         if(levelt>0){
           levelt = levelt-1;
+          
+            if(audio){
+              quitar.play(); 
+            
+            }          
         }
       
     
@@ -897,6 +919,11 @@ void mouseClicked(){
       }else if(( mouseX >=(30+posLevelsX) && mouseX <=(posLevelsX+60))&& (mouseY>=(2+posLevelsY+150) && mouseY<=(32+posLevelsY+150))&&man){
         if(levelt<6){
           levelt = levelt+1;
+          
+            if(audio){
+              anadir.play(); 
+            
+            }   
         }
       
       }
@@ -907,6 +934,12 @@ void mouseClicked(){
         if(levelh>0){
           levelh = levelh-1;
           pongotinas();
+          
+            if(audio){
+              quitar.play(); 
+            
+            }             
+          
         }
       
     
@@ -915,6 +948,12 @@ void mouseClicked(){
         if(levelh<6){
           levelh = levelh+1;
           pongotinas();
+            if(audio){
+              anadir.play(); 
+            
+            }             
+          
+          
         }
       
       }
@@ -924,6 +963,12 @@ void mouseClicked(){
       if(( mouseX >=(posLevelsX-60+750) && mouseX <=(posLevelsX-30+750) )&& (mouseY>=(2+posLevelsY+150) && mouseY<=(32+posLevelsY+150))&&man){
         if(levell>0){
           levell = levell-1;
+          
+            if(audio){
+              quitar.play(); 
+            
+            }             
+          
         }
       
     
@@ -931,6 +976,13 @@ void mouseClicked(){
       }else if(( mouseX >=(30+posLevelsX+750) && mouseX <=(posLevelsX+60+750))&& (mouseY>=(2+posLevelsY+150) && mouseY<=(32+posLevelsY+150))&&man){
         if(levell<6){
           levell = levell+1;
+          
+            if(audio){
+              anadir.play(); 
+            
+            }             
+          
+          
         }
       
       }      
@@ -1187,6 +1239,32 @@ void fotogotina(){
   if(gotinas>4)image(gotafoto, posCamX+240, posCamY+240, 110, 120);
   if(gotinas>5)image(gotafoto, posCamX+440,posCamY+ 240, 110, 120);
 
+
+}
+
+void botaudio(){
+  
+  if(audio){
+
+    stroke(0, 0, 0);
+    fill(255,255,255);
+    rect(0,0, 30, 30 );
+    fill(0);
+    textSize(17);
+    text("A", 15,23);
+    textAlign(CENTER);
+  }else{
+    
+    stroke(0, 0, 0);
+    fill(255,255,255);
+    rect(0,0, 30, 30 );
+    fill(0);
+    textSize(17);
+    text("/", 15,23);
+    textAlign(CENTER);
+  
+  
+  }  
 
 }
 
